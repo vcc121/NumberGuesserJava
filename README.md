@@ -70,8 +70,9 @@ void computerGuesser
       low = guess + 1
       guess = getMean
 ```
-```
+
 int getMean
+```
   utility function
   parameters: int low, int high  
   return (low + high) / 2  
