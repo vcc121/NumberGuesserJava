@@ -59,7 +59,7 @@ void computerGuesser
   while keepGoing
     increment tries
     print "I guess {guess}"
-    ask for input (H for too high, L for too low, C for correct)
+    ask for input (H for too high, L for too low, C for correct) (make it adjust for lowercase responses too)
     if input is C
       print "Got it in {tries} tries!"
       keepGoing = false
